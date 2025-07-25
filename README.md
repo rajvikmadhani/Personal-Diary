@@ -1,8 +1,55 @@
-# React + Vite
+# Personal Diary 📝
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and elegant personal diary web application built with **React**, **Vite**, and **Tailwind
+CSS**. It allows users to write, manage, and store daily entries with a clean and responsive UI.
 
-Currently, two official plugins are available:
+🌐 **Live Site:**
+[https://rajvikmadhani.github.io/Personal-Diary/](https://rajvikmadhani.github.io/Personal-Diary/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
+
+## ✨ Features
+
+- 🖋️ Add, edit, and delete diary entries
+- 📅 Entry timestamps with `date-fns`
+- ✅ Form validation with `react-hook-form` and `Yup`
+- 🎨 Responsive UI with Tailwind CSS and DaisyUI
+- ⚡ Fast build and dev experience with Vite
+- 🚀 Deployed to GitHub Pages
+
+---
+
+## 📦 Tech Stack
+
+- **Frontend:** React, Vite
+- **Styling:** Tailwind CSS, DaisyUI
+- **Form Validation:** React Hook Form, Yup
+- **Date Utilities:** date-fns
+
+---
+
+## 🚀 Getting Started (Local Development)
+
+```bash
+# Clone the repo
+git clone https://github.com/rajvikmadhani/Personal-Diary.git
+cd Personal-Diary
+
+# Install dependencies
+npm install
+
+# Start the dev server
+npm run dev
+📤 Deployment
+This project uses gh-pages to deploy:
+
+bash
+Copy
+Edit
+npm run build     # Builds to dist/
+npm run deploy    # Publishes dist/ to gh-pages branch
+📄 License
+This project is open-source and available under the MIT License.
+
+Made with ❤️ by @rajvikmadhani
+```
