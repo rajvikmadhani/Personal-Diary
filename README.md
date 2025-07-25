@@ -40,16 +40,17 @@ npm install
 
 # Start the dev server
 npm run dev
+
 📤 Deployment
 This project uses gh-pages to deploy:
 
 bash
 Copy
 Edit
-npm run build     # Builds to dist/
-npm run deploy    # Publishes dist/ to gh-pages branch
+npm run build     # Builds the app to the dist/ folder
+npm run deploy    # Publishes dist/ to the gh-pages branch
 📄 License
 This project is open-source and available under the MIT License.
 
 Made with ❤️ by @rajvikmadhani
-```
+
